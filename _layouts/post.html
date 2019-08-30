@@ -16,6 +16,11 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    <p>    {{ page.description }}
+      </p>
+
+      <iframe src="{{ page.embeddedlink }}" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+      
     {{ content }}
   </div>
 
